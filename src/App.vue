@@ -63,6 +63,22 @@
       </div>
     </div>
     <div
+      class="bg-html px-16 py-8 hidden md:flex flex-col justify-center"
+      v-show="displaying === 'ht'"
+    >
+      <h5 class="ml-auto text-description">About HTML</h5>
+      <div>
+        <h2
+          class="fon font-bold text-5xl leading-3rem lg:text-6xl lg:leading-5rem text-name"
+        >
+          The Skeleton Of the Web
+        </h2>
+        <p class="t text-xl mt-7 leading-8 text-description">
+          A formatting system for displaying material retrieved over the Internet. Each retrieval unit is known as a Web page (from World Wide Web), and such pages frequently contain hypertext links that allow related pages to be retrieved.
+        </p>
+      </div>
+    </div>
+    <div
       class="bg-vue px-16 py-8 hidden md:flex flex-col justify-center"
       v-show="displaying === 'vu'"
     >
@@ -78,6 +94,22 @@
           web app. It's lightweight, flexible, and easy to get started with. But
           it's also a full, rich framework that can grow to meet the needs of
           the most advanced web app builder.
+        </p>
+      </div>
+    </div>
+    <div
+      class="bg-css px-16 py-8 hidden md:flex flex-col justify-center"
+      v-show="displaying === 'cs'"
+    >
+      <h5 class="ml-auto text-description">About CSS3</h5>
+      <div>
+        <h2
+          class="fon font-bold text-5xl leading-3rem lg:text-6xl lg:leading-5rem text-name"
+        >
+          Your Language to Make the Web Nice
+        </h2>
+        <p class="t text-xl mt-7 leading-8 text-description">
+         A style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML 
         </p>
       </div>
     </div>

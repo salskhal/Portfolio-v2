@@ -11,6 +11,8 @@ module.exports = {
         js: '#f0db4f',
         vue: '#41b883',
         tail: '#38bdf8',
+        html: '#e44d26',
+        css: '#264de1',
         name: '#222',
         description: 'rgba(0,0,0,.64)',
       },
