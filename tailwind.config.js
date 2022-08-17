@@ -13,8 +13,11 @@ module.exports = {
         tail: '#38bdf8',
         html: '#e44d26',
         css: '#264de1',
+        figma: '#a259ff',
         name: '#222',
         description: 'rgba(0,0,0,.64)',
+        num: 'hsla(0,0%,100%,.16)',
+        
       },
       lineHeight: {
         '5rem': '5rem',
