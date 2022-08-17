@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white md:px-4">
+  <div class="bg-white px-0 md:px-4">
     <About />
     <Skills />
   </div>
