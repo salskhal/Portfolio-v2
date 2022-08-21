@@ -26,7 +26,7 @@
     </div>
 
     <div
-      class="bg-js px-4 md:px-16 py-8 flex flex-col justify-center"
+      class="bg-js px-8 py-12 md:px-16 flex flex-col justify-center"
       v-show="displaying === 'js'"
     >
       <h5 class="ml-auto text-description">About Javascript</h5>
@@ -46,7 +46,7 @@
     
 
     <div
-      class="bg-vue px-8 py-12 md:px-4 flex flex-col justify-center"
+      class="bg-vue  px-8 py-12 md:px-16 flex flex-col justify-center"
       v-if="displaying === 'vu'"
     >
       <h5 class="ml-auto text-description">About Vue</h5>
@@ -65,7 +65,7 @@
       </div>
     </div>
      <div
-      class="bg-html px-4 py-8 flex flex-col justify-center"
+      class="bg-html  px-8 py-12 md:px-16 flex flex-col justify-center"
       v-if="displaying === 'ht'"
     >
       <h5 class="ml-auto text-description">About HTML</h5>
@@ -84,7 +84,7 @@
       </div>
     </div>
     <div
-      class="bg-css px-4 py-8 flex flex-col justify-center"
+      class="bg-css px-8 py-12 md:px-16 flex flex-col justify-center"
       v-if="displaying === 'cs'"
     >
       <h5 class="ml-auto text-description">About CSS3</h5>
@@ -101,7 +101,7 @@
       </div>
     </div>
     <div
-      class="bg-figma px-4 py-8 flex flex-col justify-center"
+      class="bg-figma px-8 py-12 md:px-16 flex flex-col justify-center"
       v-if="displaying === 'fg'"
     >
       <h5 class="ml-auto text-description">About Figma</h5>

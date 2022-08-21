@@ -13,11 +13,11 @@ module.exports = {
         figma: "#a259ff",
         name: "#222",
         description: "rgba(0,0,0,.64)",
-        aboutDes: "#787A91",
+        aboutDes: "#fff",
         landingTitle: "hsla(0,0%,100%,.52)",
         num: "hsla(0,0%,100%,.16)",
-        main: "#371B58",
-        subMain: "#4C3575"
+        main: "#1E5F74",
+        subMain: "#1D2D50"
       },
       lineHeight: {
         "5rem": "5rem",
