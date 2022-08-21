@@ -13,10 +13,9 @@ module.exports = {
         figma: "#a259ff",
         name: "#222",
         description: "rgba(0,0,0,.64)",
-        aboutDes: "#fff",
         landingTitle: "hsla(0,0%,100%,.52)",
         num: "hsla(0,0%,100%,.16)",
-        main: "#1E5F74",
+        main: "#133B5C",
         subMain: "#1D2D50"
       },
       lineHeight: {
