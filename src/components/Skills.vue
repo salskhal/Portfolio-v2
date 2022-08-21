@@ -2,7 +2,7 @@
   <div class="grid md:grid-cols-2 min-h-screen ">
     <div class="bg-subMain px-10 md:px-16 py-8">
       <h3 class="text-num text-6xl font-bold mb-6">02.</h3>
-      <h1 class="font-bold text-white text-5xl lg:text-7xl mb-10">Technologies.</h1>
+      <h1 class="font-bold text-white text-5xl  mb-10">Technologies.</h1>
       <div
         v-for="(skill, index) in skills"
         :key="index"
