@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col px-10 md:px-16 bg-main py-16">
+  <div class="flex flex-col px-10 md:px-16 lg:px-48 py-16 bg-main" id="home">
     <div class="ml-auto">
       <h3 class="text-num text-6xl font-bold mb-6 text-right">01.</h3>
       <h1 class="font-bold text-white text-5xl mb-10">About me</h1>
@@ -18,10 +18,12 @@
         I'm constantly eager to learn new things and collaborate with others.
         Excellence cannot be jeopardized.
       </p>
+
+      
     </div>
   </div>
 </template>
 
-<script setup></script>
+<script setup></script> 
 
 <style></style>

@@ -13,7 +13,7 @@ export default {
     return {
       typeValue: "",
       typeStatus: false,
-      displayTextArray: ["A Son", "A Brother", "Not a Father"],
+      displayTextArray: ["A Son", "A Brother", "A Student", "A Friend"],
       typingSpeed: 100,
       erasingSpeed: 100,
       newTextDelay: 200,
