@@ -1,6 +1,6 @@
 <template>
   <div
-    class="b bg-subMain px-10 md:px-16 lg:px-48 py-16 min-h-screen flex flex-col justify-center"
+    class="b bg-subMain px-10 md:px-16 lg:px-48   py-16 min-h-screen flex flex-col "
   >
     <h4 class="te text-2xl font-semibold leading-6 text-landingTitle mb-8">
       Hallo Leute,

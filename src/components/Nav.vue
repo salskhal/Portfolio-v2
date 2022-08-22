@@ -3,7 +3,7 @@
     <div>
         <Logo />
     </div>
-    <div class="ml-auto">
+    <div class="ml-auto hidden md:flex">
         <ul class="flex gap-6 font-semibold text-2xl text-landingTitle ">
             <li class="hover:text-white"><a href="#home">Home</a></li>
             <li class="hover:text-white"><a href="#about">About</a></li>
@@ -12,11 +12,16 @@
             <li class="hover:text-white"><a href="#contact">Contact</a></li>
         </ul>
     </div>
+    <div class="ml-auto md:hidden">
+        <Hamburger class="w-8 h-8"/>
+    </div>
+    
   </nav>
 </template>
 
 <script setup>
     import Logo from "../assets/icons/mine.svg"
+    import Hamburger from "../assets/icons/hamburger.svg"
 </script>
 
 <style>
