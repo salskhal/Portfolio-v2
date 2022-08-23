@@ -26,7 +26,7 @@
     </div>
 
     <div
-      class="bg-js px-8 py-12 md:px-16 flex flex-col justify-center"
+      class="bg-js px-4 py-12 md:px-16 flex flex-col justify-center"
       v-show="displaying === 'js'"
     >
       <h5 class="ml-auto text-description">About Javascript</h5>

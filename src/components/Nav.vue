@@ -1,29 +1,12 @@
 <template>
-  <nav class="bg-subMain flex items-center py-5 px-8">
-    <div>
-        <Logo />
-    </div>
-    <div class="ml-auto hidden md:flex">
-        <ul class="flex gap-6 font-semibold text-2xl text-landingTitle ">
-            <li class="hover:text-white"><a href="#home">Home</a></li>
-            <li class="hover:text-white"><a href="#about">About</a></li>
-            <li class="hover:text-white"><a href="#skills">Skills</a></li>
-            <li class="hover:text-white"><a href="#projects">Projects</a></li>
-            <li class="hover:text-white"><a href="#contact">Contact</a></li>
-        </ul>
-    </div>
-    <div class="ml-auto md:hidden">
-        <Hamburger class="w-8 h-8"/>
-    </div>
-    
-  </nav>
+  <div></div>
 </template>
 
 <script setup>
-    import Logo from "../assets/icons/mine.svg"
-    import Hamburger from "../assets/icons/hamburger.svg"
+import Logo from "../assets/icons/mine.svg";
+import Hamburger from "../assets/icons/hamburger.svg";
+import { ref } from "@vue/reactivity";
+
 </script>
 
-<style>
-
-</style>
+<style></style>

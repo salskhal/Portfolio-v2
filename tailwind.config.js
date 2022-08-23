@@ -16,6 +16,8 @@ module.exports = {
         landingTitle: "hsla(0,0%,100%,.52)",
         num: "hsla(0,0%,100%,.16)",
         main: "#133B5C",
+        featureTitle: "#8cb0d9",
+        featureDescription: "#f7fafc",
         subMain: "#1D2D50"
       },
       lineHeight: {
