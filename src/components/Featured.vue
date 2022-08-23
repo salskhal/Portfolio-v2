@@ -11,7 +11,7 @@
         class="grid bg-subMain md:bg-main md:grid-cols-2"
       >
         <div>
-          <img :src="'public/assets/Project/' + project.imgName" alt="" />
+          <img :src="'assets/Project/' + project.imgName" alt="" />
         </div>
         <div class="px-4 md:px-6 py-10 md:pb-0 md:py-0 flex flex-col">
           <h1 class="f font-bold uppercase text-2xl text-featureTitle">
