@@ -10,6 +10,7 @@ module.exports = {
         tail: "#38bdf8",
         html: "#e44d26",
         css: "#264de1",
+        twitter: "#99f0ff",
         figma: "#a259ff",
         name: "#222",
         description: "rgba(0,0,0,.64)",

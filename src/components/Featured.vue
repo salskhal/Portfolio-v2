@@ -65,16 +65,13 @@ const projects = reactive([
   },
   {
     title: "Git Profile Search",
-    description: "Was built making use of the github API, it fetches details of github users displaying it on the DOM",
+    description:
+      "Was built making use of the github API, it fetches details of github users displaying it on the DOM",
     imgName: "git-profile.png",
     link: "https://gitfetch.vercel.app/",
     usedTech: ["HTML", "CSS", "JAVASCRIPT"],
-  }
+  },
 ]);
 </script>
 
-<style scoped>
-.left {
-  grid-column-start: 2;
-}
-</style>
+<style scoped></style>
