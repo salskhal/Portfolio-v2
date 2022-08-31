@@ -4,23 +4,23 @@
       <h3 class="text-num text-6xl font-bold mb-6">03.</h3>
       <h1 class="font-bold text-white text-5xl mb-10">Featured Projects</h1>
     </div>
-    <div class="projects flex flex-col gap-10">
+    <div class="projects grid md:grid-cols-2 gap-10">
       <div
         v-for="(project, index) in projects"
         :key="index"
-        class="grid bg-subMain md:bg-main md:grid-cols-2"
+        class="grid bg-main "
       >
         <div>
           <img :src="'assets/Project/' + project.imgName" alt="" />
         </div>
-        <div class="px-4 md:px-6 py-10 md:pb-0 md:py-0 flex flex-col">
+        <div class="  py-10 md:pb-0 md:py-0 flex flex-col">
           <h1 class="f font-bold uppercase text-2xl text-featureTitle">
             {{ project.title }}
           </h1>
           <p class="text-featureDescription text-xl font-medium mt-4">
             {{ project.description }}
           </p>
-          <ul class="flex gap-10 px-5 mt-5">
+          <ul class="flex gap-10 px-5 mt-5 text-white">
             <li
               v-for="(used, index) in project.usedTech"
               :key="index"
@@ -61,7 +61,7 @@ const projects = reactive([
       "This is was built when i started learning vue js, i made use of vue composition API for the state management  instead of the usuall pinia or vuex",
     imgName: "todo.png",
     link: "https://vue-todo-app-drab.vercel.app/",
-    usedTech: ["VUE"],
+    usedTech: ["VUE", "COMPOSITION API"],
   },
   {
     title: "Git Profile Search",
