@@ -8,12 +8,12 @@
       <div
         v-for="(project, index) in projects"
         :key="index"
-        class="grid bg-main "
+        class="grid bg-main"
       >
         <div>
           <img :src="'assets/Project/' + project.imgName" alt="" />
         </div>
-        <div class="  py-10 md:pb-0 md:py-0 flex flex-col">
+        <div class="py-10 md:pb-0 md:py-0 flex flex-col">
           <h1 class="f font-bold uppercase text-2xl text-featureTitle">
             {{ project.title }}
           </h1>
@@ -29,13 +29,8 @@
               {{ used }}
             </li>
           </ul>
-          <div class="inline-block mt-10">
-            <a
-              :href="project.link"
-              class="py-3 px-6 border-white border-2 mt-4"
-              target="_blank"
-              >VISIT SITE</a
-            >
+          <div class="mt-4">
+            <a :href="project.link" target="_blank"> <Link class="w-8"/></a>
           </div>
         </div>
       </div>
@@ -45,6 +40,7 @@
 
 <script setup>
 import { reactive } from "@vue/reactivity";
+import Link from "../assets/icons/link.svg";
 
 const projects = reactive([
   {
