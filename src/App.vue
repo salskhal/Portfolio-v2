@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col min-h-screen" id="home">
     <Nav />
-    <div class="" >
+    <div class="mt-10" >
       <Landing  />
       <About id="about" />
       <Skills id="skills" />
