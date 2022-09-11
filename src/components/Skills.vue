@@ -8,6 +8,7 @@
         :key="index"
         class="border- border-2 border-white rounded-3xl flex items-center p-6 hover:bg-slate-500 cursor-pointer mb-4"
         @click="toDisplay(skill.id)"
+        data-aos="fade-right"
       >
         <h3 class="text-title font-bold text-3xl">{{ skill.name }}</h3>
         <Javascript class="w-16 ml-auto" v-show="skill.id === 'js'" />
@@ -28,9 +29,10 @@
     <div
       class="bg-js px-4 py-12 md:px-16 flex flex-col justify-center"
       v-show="displaying === 'js'"
+      
     >
-      <h5 class="ml-auto text-description">About Javascript</h5>
-      <div>
+      <h5 class="ml-auto text-description" data-aos="fade-left">About Javascript</h5>
+      <div data-aos="fade-left">
         <h2
           class="fon font-bold text-5xl leading-3rem lg:text-6xl lg:leading-5rem text-name"
         >
@@ -49,8 +51,8 @@
       class="bg-vue  px-8 py-12 md:px-16 flex flex-col justify-center"
       v-if="displaying === 'vu'"
     >
-      <h5 class="ml-auto text-description">About Vue</h5>
-      <div>
+      <h5 class="ml-auto text-description" data-aos="fade-left">About Vue</h5>
+      <div data-aos="fade-left">
         <h2
           class="fon font-bold text-5xl leading-3rem lg:text-6xl lg:leading-5rem text-name"
         >
@@ -64,12 +66,14 @@
         </p>
       </div>
     </div>
+
      <div
       class="bg-html  px-8 py-12 md:px-16 flex flex-col justify-center"
       v-if="displaying === 'ht'"
+      
     >
-      <h5 class="ml-auto text-description">About HTML</h5>
-      <div>
+      <h5 class="ml-auto text-description" data-aos="fade-left">About HTML</h5>
+      <div data-aos="fade-left">
         <h2
           class="fon font-bold text-5xl leading-3rem lg:text-6xl lg:leading-5rem text-name"
         >
@@ -87,8 +91,8 @@
       class="bg-css px-8 py-12 md:px-16 flex flex-col justify-center"
       v-if="displaying === 'cs'"
     >
-      <h5 class="ml-auto text-description">About CSS3</h5>
-      <div>
+      <h5 class="ml-auto text-description" data-aos="fade-left">About CSS3</h5>
+      <div data-aos="fade-left">
         <h2
           class="fon font-bold text-5xl leading-3rem lg:text-6xl lg:leading-5rem text-name"
         >
@@ -104,10 +108,10 @@
       class="bg-figma px-8 py-12 md:px-16 flex flex-col justify-center"
       v-if="displaying === 'fg'"
     >
-      <h5 class="ml-auto text-description">About Figma</h5>
-      <div>
+      <h5 class="ml-auto text-description" data-aos="fade-left">About Figma</h5>
+      <div data-aos="fade-left">
         <h2
-          class="fon font-bold text-5xl leading-3rem lg:text-6xl lg:leading-5rem text-name"
+          class="fon font-bold text-5xl leading-3rem lg:text-6xl lg:leading-5rem text-name" 
         >
           The Collaborative Interface Design Tool
         </h2>

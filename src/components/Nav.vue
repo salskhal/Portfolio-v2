@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-main text-gray-100 py-4 px-6 md:px-16 shadow md:flex justify-between w-full fixed">
+  <div class="bg-main text-gray-100 py-4 px-6 md:px-16 shadow md:flex justify-between w-full fixed z-50">
     <div class="flex items-center cursor-pointer">
       <Logo />
     </div>
