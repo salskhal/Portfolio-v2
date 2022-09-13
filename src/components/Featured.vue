@@ -1,6 +1,6 @@
 <template>
   <div class="bg-main px-10 md:px-16 py-8">
-    <div class="text-right ml-auto">
+    <div class="text-right ml-auto" data-aos="fade-up">
       <h3 class="text-num text-6xl font-bold mb-6">03.</h3>
       <h1 class="font-bold text-white text-5xl mb-10">Featured Projects</h1>
     </div>
@@ -9,6 +9,7 @@
         v-for="(project, index) in projects"
         :key="index"
         class="grid bg-main"
+        data-aos="fade-up"
       >
         <div>
           <img :src="'assets/Project/' + project.imgName" alt="" />

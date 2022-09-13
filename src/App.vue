@@ -1,12 +1,12 @@
 <template>
   <div class="flex flex-col min-h-screen" id="home">
     <Nav />
-    <div class="mt-10" >
-      <Landing  />
+    <div class="mt-10 body">
+      <Landing />
       <About id="about" />
       <Skills id="skills" />
       <Featured id="projects" />
-      <LetsChat id="connect"/>
+      <LetsChat id="connect" />
     </div>
     <div class="mt-auto">
       <Footer />
@@ -25,6 +25,7 @@ import Footer from "./components/Footer.vue";
 </script>
 
 <style scoped>
+
 .active {
   background: #2c3748;
 }
