@@ -51,7 +51,7 @@
       v-if="displaying === 'vu'"
     >
       <h5 class="ml-auto text-description" >About Vue</h5>
-      <div data-aos="fade-left">
+      <div>
         <h2
           class="fon font-bold text-5xl leading-3rem lg:text-6xl lg:leading-5rem text-name"
         >
@@ -72,7 +72,7 @@
       
     >
       <h5 class="ml-auto text-description" >About HTML</h5>
-      <div data-aos="fade-left">
+      <div>
         <h2
           class="fon font-bold text-5xl leading-3rem lg:text-6xl lg:leading-5rem text-name"
         >
@@ -91,7 +91,7 @@
       v-if="displaying === 'cs'"
     >
       <h5 class="ml-auto text-description" >About CSS3</h5>
-      <div data-aos="fade-left">
+      <div >
         <h2
           class="fon font-bold text-5xl leading-3rem lg:text-6xl lg:leading-5rem text-name"
         >
@@ -108,7 +108,7 @@
       v-if="displaying === 'fg'"
     >
       <h5 class="ml-auto text-description" >About Figma</h5>
-      <div data-aos="fade-left">
+      <div>
         <h2
           class="fon font-bold text-5xl leading-3rem lg:text-6xl lg:leading-5rem text-name" 
         >
