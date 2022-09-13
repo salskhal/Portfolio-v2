@@ -9,7 +9,6 @@
         v-for="(project, index) in projects"
         :key="index"
         class="grid bg-main"
-        data-aos="fade-up"
       >
         <div>
           <img :src="'assets/Project/' + project.imgName" alt="" />
