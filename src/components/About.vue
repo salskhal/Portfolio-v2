@@ -7,7 +7,7 @@
       
     <div class="text-title text-2xl leading-8 lg:w-2/4">
       <p class=" mb-4" >
-        I am Khalid, A software engineering who is
+        I am Khalid, A software engineer who is
         enthusiastic about all things technology.
       </p>
       <p class="= mb-4">
